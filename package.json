@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "typedoc": "typedoc --out ./docs/ ./src/",
+    "docs": "npm run typedoc -- --options typedoc.json --exclude '**/*.spec.ts' ./src/",
+    "typedoc": "typedoc",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
