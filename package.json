@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "docs": "npm run typedoc -- --options typedoc.json --mode file --exclude '**/*.spec.ts' ./src/",
+    "docs": "npm run typedoc -- --options typedoc.json --exclude '**/*.spec.ts' ./src/",
     "typedoc": "typedoc",
     "test": "ng test",
     "lint": "ng lint",
