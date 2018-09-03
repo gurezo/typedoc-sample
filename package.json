@@ -7,6 +7,7 @@
     "build": "ng build",
     "docs": "npm run typedoc -- --options typedoc.json --mode file --exclude '**/*.spec.ts' ./src/",
     "typedoc": "typedoc",
+    "remove": "rm -rf docs",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
