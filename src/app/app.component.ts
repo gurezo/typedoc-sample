@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { AppService } from './app.service';
 
 @Component({
   selector: 'app-root',
@@ -8,6 +9,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   // comment test
   title = 'test';
+
+  constructor(
+    private appService: AppService
+  ) {
+    this.appService.someMethod();
+  }
 
   /**
   * 関数の説明
