@@ -3,8 +3,8 @@ this is typescript document sample for angular6
 
 
 ## for reference
-[TypeDoc](https://typedoc.org/)
-[TypeScriptのドキュメントが一瞬で作れるんだ、そうTypeDocならね](https://qiita.com/Mic-U/items/961ce4e0c2a1def1dbd3)
+- [TypeDoc](https://typedoc.org/)
+- [TypeScriptのドキュメントが一瞬で作れるんだ、そうTypeDocならね](https://qiita.com/Mic-U/items/961ce4e0c2a1def1dbd3)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
